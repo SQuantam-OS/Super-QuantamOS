@@ -18,6 +18,7 @@ ln -s /usr/local/steam/steam /distro/mnt/usr/local/bin/steam
 echo '/usr/local/steam/lib' > /distro/mnt/etc/ld.so.conf.d/steam.conf
 ldconfig
 ```
+after finishing use `boot.img` in a VM (keep the mnt folder) and boot it up from the Detailed DFS Guide
 now steam should be runnable in SQOS
 ```
 ./usr/local/steam/steam
