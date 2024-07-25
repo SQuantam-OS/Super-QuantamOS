@@ -1,3 +1,6 @@
+# Maintainer : Labsdj
+# Maintainer : GuestSneezeOSDev
+# Maintainer : ekultails/LukeShortCloud
 apt install bzip2 libncurses-dev flex bison bc libelf-dev libssl-dev xz-utils autoconf gcc make libtool git vim libpng-dev libfreetype-dev g++ extlinux
 echo "This script requires you to do things aswell"
 wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.tar.xz
