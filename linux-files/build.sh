@@ -35,6 +35,7 @@ cd bin/
 ldd nano-X
 mkdir /distro/lib/
 mkdir /distro/lib64/
+mkdir /distro/lib/x86_64-linux-gnu/
 cp /lib/x86_64-linux-gnu/libpng16.so.16 /distro/lib/x86_64-linux-gnu/libpng16.so.16
 cp /lib/x86_64-linux-gnu/libfreetype.so.6 /distro/lib/x86_64-linux-gnu/libfreetype.so.6
 cp /lib/x86_64-linux-gnu/libc.so.6 /distro/lib/x86_64-linux-gnu/libc.so.6
