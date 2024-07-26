@@ -1,0 +1,11 @@
+NAME=QuantamOS
+VERSION="M.v1"
+ID=QuantamOS
+VERSION_ID=1
+PRETTY_NAME="QuantamOS major version"
+LOGO=linux
+HOME_URL="https://github.com/SQuantam-OS/Super-QuantamOS"
+DOCUMENTATION_URL="https://github.com/SQuantam-OS/Super-QuantamOS/wiki"
+SUPPORT_URL="https://github.com/SQuantam-OS/Super-QuantamOS/issues"
+BUG_REPORT_URL="hhttps://github.com/SQuantam-OS/Super-QuantamOS/issues"
+PRIVACY_POLICY_URL="https://github.com/SQuantam-OS/Super-QuantamOS"
