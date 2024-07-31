@@ -1,13 +1,11 @@
 # Super-QuantamOS
 
-***Super-QuantamOS*** is a custom Linux distribution built from scratch using the [buildroot](https://buildroot.org/) project made with ❤️
-## Package Managers
+***Super-QuantamOS*** is a custom Linux distribution built from scratch made with ❤️
+## Why choose us?
+- Lightweight (Less than 2-4 GB of free space and 512MB of RAM)
+- Free and open-source
+- RPM support
 
-`opkg`
-
-`rpm`
-
-`QPM`
 ## Maintainers of the Project
 
 [@LukeShortCloud](https://github.com/LukeShortCloud)
@@ -15,3 +13,10 @@
 [GuestSneezeOSDev](https://github.com/GuestSneezeOSDev)
 
 [@Labsdj](https://github.com/Labsdj)
+
+## Sponsors (and other projects)
+### - [winesapOS/Mac Linux Gaming Stick <img src="https://user-images.githubusercontent.com/10150374/158224898-bdb4ad3a-ad09-478c-a09d-d313feeb8713.png" width=15% height=15%>](https://github.com/LukeShortCloud/winesapOS)
+### - [Rootpages](https://github.com/LukeShortCloud/rootpages)
+### - [GuestSneezeOS](https://github.com/GuestSneezeOS/GuestSneezeOS)
+### - [Jupiter Linux](https://github.com/GuestSneezeOSDev/Jupiter-Linux/tree/main)
+### - [ROVduino Repo](https://github.com/Labsdj/Utilities)
