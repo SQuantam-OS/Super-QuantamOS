@@ -34,6 +34,9 @@ make -j$(nproc)
 make install
 mkdir -p rootfs/etc/X11
 echo "exec /usr/bin/Xorg" > rootfs/etc/X11/xinit/xinitrc
+# Make initramfs
+cd rootfs
+find . | cpio -o --format=newc | gzip > ../initramfs.gz
 
 
 
