@@ -2,7 +2,7 @@
 # Soon I/GuestSneezeOSDev will make my own kernel meaning it will not be linux based (2 years)
 cd ~/
 sudo apt-get update
-sudo apt-get install gcc g++ make libncurses5-dev libssl-dev bc
+sudo apt-get install gcc g++ make libncurses5-dev libssl-dev bc genisoimage
 wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.2.tar.xz
 tar -xf linux-6.10.2.tar.xz
 cd linux
@@ -37,7 +37,8 @@ echo "exec /usr/bin/Xorg" > rootfs/etc/X11/xinit/xinitrc
 # Make initramfs
 cd rootfs
 find . | cpio -o --format=newc | gzip > ../initramfs.gz
-
+cd ..
+genisoimage -o quantamos.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -R -J rootfs
 
 
 
