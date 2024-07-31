@@ -5,7 +5,8 @@ sudo apt-get install -y gcc g++ make libncurses5-dev libssl-dev bc cdrkit syslin
 wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.2.tar.xz
 tar -xf linux-6.10.2.tar.xz
 cd linux-6.10.2
-make defconfig
+# Fix #18
+make menuconfig
 make -j$(nproc)
 sudo make modules_install
 sudo make install
