@@ -1,6 +1,7 @@
 # Super-QuantamOS
 
 ***Super-QuantamOS*** is a custom Linux distribution built from scratch made with ❤️
+> Note this is NOT a GNU/Linux Distro it is a Linux distro it DOES NOT use any GNU utilities
 ## Why choose us?
 - Lightweight (Less than 2-4 GB of free space and 512MB of RAM)
 - Free and open-source
