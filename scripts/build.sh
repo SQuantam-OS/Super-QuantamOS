@@ -1,5 +1,11 @@
 #!/bin/bash
 # QuantamOS build.sh fix
+# BE ELEVATED WITH SUDO
+if [ "$EUID" -ne 0 ]; then
+    echo "Please run this script as root or using sudo! or else"
+    exit 1
+fi
+# Ok back to the script
 sudo apt-get update
 sudo apt-get install -y build-essential libncurses-dev bison flex libssl-dev libelf-dev grub-pc-bin grub-efi-amd64-bin xorriso
 sudo apt-get install -y ghc cabal-install libx11-dev libxft-dev libxinerama-dev
@@ -41,8 +47,14 @@ cp /usr/bin/xmonad ../quantam/rootfs/usr/bin/
 # Uninstall xmonad
 sudo apt-get remove xmonad
 mkdir -p ../quantam/rootfs/usr/share/X11/xorg.conf.d
-
-mkdir -p iso/boot/grub
+# Resolve #7
+cd ~/
+mkdir -p ~/quantam/rootfs/usr/local/bin
+curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
+cd /usr/local/bin
+sudo mv distrobox distrobox-enter distrobox-generate-entry distrobox-list distrobox-upgrade distrobox-assemble distrobox-ephemeral  distrobox-host-exec distrobox-rm distrobox-create  distrobox-export  distrobox-init distrobox-stop ~/quantam/rootfs/usr/local/bin
+# I Think that should fix it
+mkdir -p ~/iso/boot/grub
 cp /boot/vmlinuz-6.10.2 iso/boot/vmlinuz
 cp /boot/initramfs.gz iso/boot/initramfs.gz
 
