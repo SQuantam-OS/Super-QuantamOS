@@ -14,9 +14,8 @@
 
 [@Labsdj](https://github.com/Labsdj)
 
-## Sponsors (and other projects)
+## Sponsors (and other related projects)
 ### - [winesapOS/Mac Linux Gaming Stick <img src="https://user-images.githubusercontent.com/10150374/158224898-bdb4ad3a-ad09-478c-a09d-d313feeb8713.png" width=15% height=15%>](https://github.com/LukeShortCloud/winesapOS)
-### - [Rootpages](https://github.com/LukeShortCloud/rootpages)
-### - [GuestSneezeOS](https://github.com/GuestSneezeOS/GuestSneezeOS)
+### - [PlaytronOS](https://playtron.one)
 ### - [Jupiter Linux](https://github.com/GuestSneezeOSDev/Jupiter-Linux/tree/main)
 ### - [ROVduino Repo](https://github.com/Labsdj/Utilities)
