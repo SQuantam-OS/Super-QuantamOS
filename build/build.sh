@@ -35,12 +35,11 @@ echo "mount -t sysfs none /sys" >> ../quantam/rootfs/etc/init.d/rcS
 echo "/sbin/mdev -s" >> ../quantam/rootfs/etc/init.d/rcS
 chmod +x ../quantam/rootfs/etc/init.d/rcS
 
-cabal update
-cabal install xmonad
-cabal install xmonad-contrib
-
-cp ~/.cabal/bin/xmonad ../quantam/rootfs/usr/bin/
-
+# Use xmonad
+sudo apt-get install -y xmonad
+cp /usr/bin/xmonad ../quantam/rootfs/usr/bin/
+# Uninstall xmonad
+sudo apt-get remove xmonad
 mkdir -p ../quantam/rootfs/usr/share/X11/xorg.conf.d
 
 mkdir -p iso/boot/grub
