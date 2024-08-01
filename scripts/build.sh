@@ -53,6 +53,10 @@ mkdir -p ~/quantam/rootfs/usr/local/bin
 curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
 cd /usr/local/bin
 sudo mv distrobox distrobox-enter distrobox-generate-entry distrobox-list distrobox-upgrade distrobox-assemble distrobox-ephemeral  distrobox-host-exec distrobox-rm distrobox-create  distrobox-export  distrobox-init distrobox-stop ~/quantam/rootfs/usr/local/bin
+# Initial patch
+cd ~/quantam
+cd rootfs
+find . | cpio -o --format=newc | gzip > ../initramfs.gz
 # I Think that should fix it
 mkdir -p ~/iso/boot/grub
 cp /boot/vmlinuz-6.10.2 iso/boot/vmlinuz
