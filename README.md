@@ -1,22 +1,58 @@
 # Super-QuantamOS
 
-***Super-QuantamOS*** is a custom Linux distribution built from scratch made with ❤️
-> Note this is NOT a GNU/Linux Distro it is a Linux distro it DOES NOT use any GNU utilities
-## Why choose us?
-- Lightweight (Less than 2-4 GB of free space and 512MB of RAM)
-- Free and open-source
-- RPM support
+***Super-QuantamOS*** is a custom Linux distribution built from scratch with ❤️. 
+> Unlike traditional GNU/Linux distributions, Super-QuantamOS is designed without any GNU utilities, offering a unique and streamlined experience.
 
-## Maintainers of the Project
+## Key Features
 
-[@LukeShortCloud](https://github.com/LukeShortCloud)
+- **Lightweight:** 
+  - Requires less than 2-4 GB of free disk space
+  - Runs efficiently with just 512MB of RAM
+- **Free and Open-Source:**
+  - Fully open for modifications and redistribution
+  - Developed under the GPLv3 license
+- **RPM Support:**
+  - Compatible with RPM packages, allowing for flexible software installation
+- **Custom Built:**
+  - Created from the ground up with a focus on performance and minimalism
 
-[GuestSneezeOSDev](https://github.com/GuestSneezeOSDev)
+## Getting Started
 
-[@Labsdj](https://github.com/Labsdj)
+To get started with Super-QuantamOS, follow these steps:
 
-## Sponsors (and other related projects)
-### - [winesapOS/Mac Linux Gaming Stick <img src="https://user-images.githubusercontent.com/10150374/158224898-bdb4ad3a-ad09-478c-a09d-d313feeb8713.png" width=15% height=15%>](https://github.com/LukeShortCloud/winesapOS)
-### - [PlaytronOS](https://playtron.one)
-### - [Jupiter Linux](https://github.com/GuestSneezeOSDev/Jupiter-Linux/tree/main)
-### - [ROVduino Repo](https://github.com/Labsdj/Utilities)
+1. **Download the ISO:** [Download the latest release](#) from our releases page.
+2. **Create a Bootable USB:** Use tools like `Rufus` or `balenaEtcher` to create a bootable USB drive.
+3. **And run!:** Yep you do not need to install the OS this OS is portable
+
+## Project Maintainers
+
+- [@LukeShortCloud](https://github.com/LukeShortCloud)
+- [GuestSneezeOSDev](https://github.com/GuestSneezeOSDev)
+- [@Labsdj](https://github.com/Labsdj)
+
+## Contributing
+
+We welcome contributions from the community! To contribute to Super-QuantamOS:
+
+1. **Fork the Repository:** Create a fork of this repository on GitHub.
+2. **Create a Branch:** Develop your changes in a separate branch.
+3. **Submit a Pull Request:** Open a pull request with a clear description of the changes.
+
+For more detailed guidelines, please see our [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Sponsors and Related Projects
+
+We would like to thank our sponsors and related projects for their support:
+
+- [winesapOS/Mac Linux Gaming Stick](https://github.com/LukeShortCloud/winesapOS)
+- [PlaytronOS](https://playtron.one)
+- [Jupiter Linux](https://github.com/GuestSneezeOSDev/Jupiter-Linux/tree/main)
+- [ROVduino Repo](https://github.com/Labsdj/Utilities)
+
+## License
+
+Super-QuantamOS is licensed under the GPLv3. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+For additional information, visit our official website. If you have any questions or need support, please open an issue on GitHub.
