@@ -1,4 +1,5 @@
 # Super-QuantamOS
+**Super-QuantamOS** gaming anywhere is possible
 
 ***Super-QuantamOS*** is a custom Linux distribution built from scratch with ❤️. 
 > Unlike traditional GNU/Linux distributions, Super-QuantamOS is designed without any GNU utilities, offering a unique and streamlined experience.
