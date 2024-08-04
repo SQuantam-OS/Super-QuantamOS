@@ -1,10 +1,10 @@
-# Super-QuantamOS
+# Super-QuantamOS <img src="https://raw.githubusercontent.com/NicklasVraa/NovaOS/935660d1cb80a06e14928aca683d863821be58ea/meta/logo.svg" width="28"/>
 **Super-QuantamOS** gaming anywhere is possible
 
 ***Super-QuantamOS*** is a custom Linux distribution built from scratch with ❤️. 
 > Unlike traditional GNU/Linux distributions, Super-QuantamOS is designed without any GNU utilities, offering a unique and streamlined experience.
 
-## Key Features
+## Features
 
 - **Lightweight:** 
   - Requires less than 2-4 GB of free disk space
