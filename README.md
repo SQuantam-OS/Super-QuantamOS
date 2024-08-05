@@ -3,6 +3,7 @@
 
 ***Super-QuantamOS*** is a custom Linux distribution built from scratch with ❤️. 
 > Unlike traditional GNU/Linux distributions, Super-QuantamOS is designed without any GNU utilities, offering a unique and streamlined experience.
+
 > Please noe that we do NOT use the Quartz-kernel we use the linux kernel the Quartz Kernel is a kernel we will use in the future
 
 ## Features
