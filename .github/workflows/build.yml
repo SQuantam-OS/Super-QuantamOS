@@ -1,4 +1,4 @@
-name: Build with GCC Cross x86_64-elf
+name: Build QuantamOS
 
 on:
   push:
@@ -11,22 +11,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Set up Docker
-        uses: docker/setup-buildx-action@v2
-
-      - name: Build and Run Docker Container
-        uses: docker/build-push-action@v3
-        with:
-          context: .
-          file: Dockerfile
-          push: false
-          tags: quantamos:latest
-        id: docker_build
-
-      - name: Run Docker Container
-        run: |
-          docker run --rm -v ${{ github.workspace }}:/root/env/ quantamos:latest
+    - name: Build Quantam
+      run: |
+        chmod +x scripts/build.sh
+        scripts/build.sh
