@@ -43,6 +43,12 @@ We welcome contributions from the community! To contribute to Super-QuantamOS:
 
 For more detailed guidelines, please see our [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Software used
+* [Buildroot](https://buildroot.org/)
+* [Flatpak](https://github.com/flatpak/flatpak)
+* [linux-firmware-valve](https://aur.archlinux.org/packages/linux-firmware-valve)
+* [Linux Kernel](https://github.com/torvalds/linux)
+
 ## Sponsors and Related Projects
 
 We would like to thank our sponsors and related projects for their support:
@@ -50,7 +56,6 @@ We would like to thank our sponsors and related projects for their support:
 - [winesapOS/Mac Linux Gaming Stick](https://github.com/LukeShortCloud/winesapOS)
 - [PlaytronOS](https://playtron.one)
 - [Jupiter Linux](https://github.com/GuestSneezeOSDev/Jupiter-Linux/tree/main)
-- [ROVduino Repo](https://github.com/Labsdj/Utilities)
 
 ## License
 
