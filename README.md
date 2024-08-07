@@ -64,3 +64,5 @@ Super-QuantamOS is licensed under the GPLv3. See the [LICENSE](LICENSE) file for
 ---
 
 For additional information, visit our official website. If you have any questions or need support, please open an issue on GitHub.
+
+[<img src="https://github.com/user-attachments/assets/458d47f8-a6e7-407d-8c9d-a93c49ca7edd" width="100"/>](https://sourceforge.net/p/super-quantamos/)
