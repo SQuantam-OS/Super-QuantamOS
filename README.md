@@ -1,3 +1,4 @@
+[![Download Super-QuantamOS](https://img.shields.io/sourceforge/dm/super-quantamos.svg)](https://sourceforge.net/projects/super-quantamos/files/latest/download)
 # Super-QuantamOS <img src="https://raw.githubusercontent.com/NicklasVraa/NovaOS/935660d1cb80a06e14928aca683d863821be58ea/meta/logo.svg" width="28"/>
 **Super-QuantamOS** gaming anywhere is possible
 
