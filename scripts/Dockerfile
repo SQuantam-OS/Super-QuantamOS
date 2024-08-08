@@ -2,6 +2,6 @@
 FROM ekultails/steamos:latest
 #FROM archlinux:latest
 #FROM jonathonf/manjaro:latest
-RUN pacman -S git base-devel make xorriso
+RUN pacman -S git base-devel make xorriso tar bxip2 gzip
 RUN ./build.sh
 RUN echo "Build Completed"
