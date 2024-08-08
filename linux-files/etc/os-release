@@ -1,9 +1,11 @@
-NAME=QuantamOS
-VERSION="M.v1"
+NAME=super-quantamOS
+VERSION="2.0.0"
 ID=QuantamOS
-VERSION_ID=1
-PRETTY_NAME="QuantamOS major version"
+VERSION_ID=2
+VERSION_CODENAME=""
+PRETTY_NAME="Super QuantamOS"
 LOGO=linux
+DEFAULT_HOSTNAME="quantamos"
 HOME_URL="https://github.com/SQuantam-OS/Super-QuantamOS"
 DOCUMENTATION_URL="https://github.com/SQuantam-OS/Super-QuantamOS/wiki"
 SUPPORT_URL="https://github.com/SQuantam-OS/Super-QuantamOS/issues"
