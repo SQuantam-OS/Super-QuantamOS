@@ -6,26 +6,6 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 # Ok back to the script
-
-supported_managers=("apt-get" "pacman" "yum" "zypper")
-
-read -p "Enter your package manager so we can continue: " user_manager
-
-if [[ " ${supported_managers[@]} " =~ " ${user_manager} " ]]; then
-    echo "Package manager '${user_manager}' is supported."
-    echo "Installing base-devel, git, and make..."
-    
-    case "${user_manager}" in
-        apt-get) sudo apt-get update; sudo apt-get install base-devel git make xorriso ;;
-        pacman) sudo pacman -Syu --needed base-devel git xorriso ;;
-        yum) sudo yum install base-devel git make xorriso ;;
-        zypper) sudo zypper install base-devel git make xorriso ;;
-    esac
-else
-    echo "Unsupported package manager. Choose from: ${supported_managers[*]}"
-fi
-
-
 wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.2.tar.xz
 tar -xvf linux-6.10.2.tar.xz
 cd linux-6.10.2
