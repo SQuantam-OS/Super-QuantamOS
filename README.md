@@ -10,7 +10,7 @@
   - Runs efficiently with just 512MB of RAM
 - **Free and Open-Source:**
   - Fully open for modifications and redistribution
-  - Developed under the GPLv3 license
+  - Developed under the MiT license
 - **RPM Support:**
   - Compatible with RPM packages, allowing for flexible software installation
 - **Custom Built:**
