@@ -40,6 +40,11 @@ mv rootfs.ext4 rootfs.tar
 tar xf rootfs.tar
 rm *.tar
 cd rootfs
+mkdir -p ~/quantam/rootfs/usr/local/bin
+curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
+cd /usr/local/bin
+sudo mv distrobox distrobox-enter distrobox-generate-entry distrobox-list distrobox-upgrade distrobox-assemble distrobox-ephemeral  distrobox-host-exec distrobox-rm distrobox-create  distrobox-export  distrobox-init distrobox-stop ~/quantam/rootfs/usr/local/bin
+cd ~/quantam/rootfs/
 find . | cpio -o --format=newc | gzip > ../initramfs.gz
 mkdir -p ~/iso/boot/grub
 cd ~/quantam
