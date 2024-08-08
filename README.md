@@ -1,4 +1,6 @@
 [![Download Super-QuantamOS](https://img.shields.io/sourceforge/dm/super-quantamos.svg)](https://sourceforge.net/projects/super-quantamos/files/latest/download)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 # Super-QuantamOS <img src="https://raw.githubusercontent.com/NicklasVraa/NovaOS/935660d1cb80a06e14928aca683d863821be58ea/meta/logo.svg" width="28"/>
 **Super-QuantamOS** gaming anywhere is possible
 
