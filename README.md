@@ -27,9 +27,9 @@ To get started with Super-QuantamOS, follow these steps:
 
 ## Project Maintainers
 
-- [@LukeShortCloud](https://github.com/LukeShortCloud)
-- [GuestSneezeOSDev](https://github.com/GuestSneezeOSDev)
-- [@Labsdj](https://github.com/Labsdj)
+- [@GuestSneezeOSDev](https://github.com/GuestSneezeOSDev) Project Leader Founder of the Project
+- [@LukeShortCloud](https://github.com/LukeShortCloud) Creator of many Drivers used in QuantamOS 
+- [@Labsdj](https://github.com/Labsdj) Contributor
 
 ## Contributing
 
