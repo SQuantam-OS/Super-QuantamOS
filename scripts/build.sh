@@ -5,25 +5,6 @@ if [ "$EUID" -ne 0 ]; then
     echo "Please run this script as root or using sudo! or else"
     exit 1
 fi
-
-supported_managers=("apt-get" "pacman" "yum" "zypper")
-
-read -p "Enter your package manager so we can continue: " user_manager
-
-if [[ " ${supported_managers[@]} " =~ " ${user_manager} " ]]; then
-    echo "Package manager '${user_manager}' is supported."
-    echo "Installing base-devel, git, and make..."
-    
-    case "${user_manager}" in
-        apt-get) sudo apt-get update; sudo apt-get install base-devel git make ;;
-        pacman) sudo pacman -Syu --needed base-devel git ;;
-        yum) sudo yum install base-devel git make ;;
-        zypper) sudo zypper install base-devel git make ;;
-    esac
-else
-    echo "Unsupported package manager. Choose from: ${supported_managers[*]}"
-fi
-
 start_time=$(date +%s)
 
 cd ~/
